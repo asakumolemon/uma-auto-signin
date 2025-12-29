@@ -1,6 +1,8 @@
 // signin.js
 import fetch from "node-fetch";
 import crypto from "crypto";
+import dotenv from "dotenv";
+dotenv.config();
 
 // ==== 配置区域 ==== //
 const COOKIE = process.env.KOMOE_COOKIE;
